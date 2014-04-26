@@ -1,0 +1,16 @@
+{
+  "name": "mail-test",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "coffee server.coffee"
+  },
+  "dependencies": {
+    "americano": "0.3.3",
+    "request-json": "*"
+  },
+  "cozy-permissions": {
+    "send mail to user": {
+      "description": "Emails can be sent for spamming the user"
+    }
+  }
+}
